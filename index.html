@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+</head>
+<script>
+    $(function () {
+        $("#main").fullpage({
+            'sectionsColor':["red","#666","green","black"],
+            'navigation': true,
+            loop:false,
+            recordHistory: true
+        });
+        $(".next").click(function () {
+            $("#main").fullpage.moveSectionDown();
+        });
+    });
+</script>
+<body>
+<a href="javascript:;" class="next">>></a>
+<div id="main">
+    <div class="section">
+        <div class="section1box">
+            <div class="bg1"></div>
+            <div class="title">
+                <a href="javascript:;" class="title1">FULLPAGE <br>COLORS</a>
+                <a href="javascript:;" class="title2">
+                    Lorem ipsum dolor consectetur adipisicing elitsed do eiusmod tempor incididunt utlabore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod.
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section2box">
+            <div class="slidebox">
+                <div class="slide">
+                    <img src="img/sestion2-1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sestion2-2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sestion2-3.png" alt="">
+                </div>
+            </div>
+            <div class="contentbox">
+                <h1>HELLO!</h1>
+                <p>
+                    Lorem ipsum dolor consectetur adipisicing elitsed do eiusmod tempor incididunt utlabore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section">
+        <div class="section3box">
+            <div class="section3p">
+                <h1>PHOTOS</h1>
+                <p>
+                    Lorem ipsum dolor consectetur adipisicing elitsed do eiusmod tempor incididunt utlabore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+                </p>
+            </div>
+            <div class="slidebox3">
+                <ul class="newslide now">
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-2.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-3.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-4.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-5.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-6.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="newslide">
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-7.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-8.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-9.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-10.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-11.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgbox">
+                            <img src="img/sestion3-12.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <div class="slidebox3bot">
+                    <div class="pbox">
+                        <p class="p1">→</p>
+                        <p class="p2">PREVIOUS</p>
+                    </div>
+                    <p class="p3 active1">1</p>
+                    <p class="p4">2</p>
+                    <div class="pbox active1">
+                        <p class="p5">NEXT</p>
+                        <p class="p6">→</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section4box">
+            <div class="left">
+                <div class="lefttitle">
+                    <div class="lefttitle1 white">Contact informations</div>
+                    <div class="lefttitle2">Send a message</div>
+                </div>
+                <div class="content show">
+                    <p class="content1">
+                        Lorem ipsum dolor consectetur adipisicing elitsed do eiusmod tempor incididunt utlabore et
+                        dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <ul class="row">
+                        <li>
+                            <i class="iconfont icon-zhuzhi"></i>
+                            <span class="row2"> 41 Beard St, Brooklyn, NY 11231, United States</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-dingdanxiangqingdadianhua"></i>
+                            <span class="row2"> (+02) 32032065788</span>
+                        </li>
+                        <li>
+                            <i class="iconfont icon-hl02"></i>
+                            <span class="row2">  info@company.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="newcontent">
+                    <input type="text" placeholder="name" id="name">
+                    <input type="email" placeholder="email" id="email">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button id="submit">SEND MESSAGE</button>
+                </div>
+            </div>
+            <div class="section4img">
+                <img src="img/sestion4-1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
