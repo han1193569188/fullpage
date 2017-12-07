@@ -231,10 +231,12 @@ div.fp-controlArrow.fp-prev{
     padding-left: 15px;
     padding-right: 15px;
     width:360px;
+    height:248px;
     color: #FAFAFA;
     position: absolute;
     right:20px;
-    top:25%;
+    top:50%;
+    margin-top:-124px;
     transition: all 1s;
     transform: scale(0);
 }
