@@ -30,7 +30,8 @@
     width:555px;
     height:530px;
     position: absolute;
-    bottom:0;
+    top: 55%;
+    margin-top: -265px;
     left:0;
     background: url("../img/sestion1-1.png") 50% 0;
     background-size: cover;
@@ -42,7 +43,8 @@
     height:368px;
     position: absolute;
     right: 0;
-    bottom:20%;
+    top: 50%;
+    margin-top: -184px;
     /*transition: all 0.7s;*/
     z-index:100;
 }
@@ -166,7 +168,7 @@
     height: 10px;
     box-sizing: border-box;
     border: 1px solid #fff;
-    background: #999;
+    /* background: #999; */
     border-radius: 50%;
     position: absolute;
     z-index: 1;
@@ -218,6 +220,10 @@
 }
 .slide img{
     margin:0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 div.fp-controlArrow.fp-next{
     transition: all 1s;
@@ -236,7 +242,7 @@ div.fp-controlArrow.fp-prev{
     position: absolute;
     right:20px;
     top:50%;
-    margin-top:-124px;
+    margin-top: -124px;
     transition: all 1s;
     transform: scale(0);
 }
@@ -263,10 +269,11 @@ div.fp-controlArrow.fp-prev{
     padding-left: 15px;
     padding-right: 15px;
     width:360px;
+    height: 350px;
     color: #FAFAFA;
     position: absolute;
-    left:0px;
-    top:25%;
+    top:50%;
+    margin-top: -175px;
     transition: all 1s;
     transform: rotate(180deg) scale(1.5);
 }
@@ -315,6 +322,9 @@ div.fp-controlArrow.fp-prev{
     box-sizing: border-box;
     background-color: #fff;
     transform: scale(0);
+}
+.now{
+    z-index: 50;
 }
 .now li{
     transition: .8s;
@@ -365,7 +375,7 @@ div.fp-controlArrow.fp-prev{
     width:100%;
     transition: .5s;
 }
-.newslide li:hover img{
+.now li:hover img{
     transform: scale(1.2);
 }
 .active1:hover p{
